@@ -1,2 +1,2 @@
-# Sistema-Jato-M-ximo-Brilho
+# Sistema Jato Máximo Brilho
 Projeto desenvolvido como atividade acadêmica

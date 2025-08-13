@@ -1,0 +1,181 @@
+.container {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    max-width: 850px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+}
+
+.formulario label {
+    display: block;
+    font-family: 'Sansation', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+.agendamento {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    width: 100%;
+}
+
+.agendamento label {
+    display: block;
+    font-family: 'Sansation', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.agendamento input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+}
+.botao {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.botao button {
+    background: #5c728d;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 13px 28px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao button:hover {
+    background: #4a617a;
+}
+
+#background {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 900;
+}
+
+.popup {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+    z-index: 1000;
+    border: 1px solid black;
+}
+
+.popup-header {
+    background: #aac5db;
+    padding: 10px;
+    margin: -20px -20px 0 -20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+
+.popup-header span {
+    position: absolute;
+    right: 8px;
+    top: -3px;
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+}
+
+.popup .mensagem {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.popup .botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popup button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.popup .nao {
+    background: red;
+    color: white;
+}
+
+.popup .sim {
+    background: #4CAF50;
+    color: white;
+}
+.fila{
+    display: flex;
+    position: relative;
+    left: -25px;
+    padding: 10px;
+}
+.suggestions-box {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    width: 100%;
+    display: none;
+    z-index: 1000;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background: #f0f0f0;
+}
+.add-button{
+    background-color: #4CAF50;
+}
+.popup-content .formulario{
+    width: 650px;
+    padding: 30px;
+}

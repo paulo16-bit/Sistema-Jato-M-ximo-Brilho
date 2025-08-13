@@ -1,0 +1,91 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn-adicionar {
+    background-color: #58E058;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+
+.btn-adicionar:hover {
+    background-color: #45a049;
+}
+
+.btn-editar,
+.btn-excluir {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Smooch Sans', sans-serif;
+    letter-spacing: 2px;
+}
+
+.btn-editar {
+    background-color: #5B748A;
+    color: white;
+}
+
+.btn-editar:hover {
+    background-color:rgb(37, 91, 136);
+}
+
+.btn-excluir {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.btn-excluir:hover {
+    background-color: #da190b;
+}
+
+.container_usuario {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    max-width: 850px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+}
+.container_usuario_create_edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    font-family: 'Sansation', sans-serif;
+}
